@@ -808,7 +808,7 @@ script.Parent = imgui
 local UIS = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 local RS = game:GetService("RunService")
-local ps = Players
+local ps = game:GetService("Players")
 
 local p = ps.LocalPlayer
 local mouse = p:GetMouse()
